@@ -1,5 +1,5 @@
 # 🚀 SIFSM — Sistema Integrado de Futuro Sustentável em Marte
-## Uma solução computacional para gerenciamento inteligente, sustentabilidade e autonomia da colônia Aurora Siger.
+### Uma solução computacional para gerenciamento inteligente, sustentabilidade e autonomia da colônia Aurora Siger.
 
 ## 👥 Equipe
 
