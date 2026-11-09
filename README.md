@@ -10,6 +10,13 @@
 | Miguel Antunes | rm573643 |
 | Miguel Gonçalves | rm573793 |
 
+## Objetivo
+
+Protótipo em Python, executado no terminal, que organiza e analisa os dados
+operacionais da colônia Aurora Siger para apoiar decisões sustentáveis: guarda
+leituras dos módulos em banco de dados, gera alertas, simula a bateria e estima
+o consumo de energia.
+
 # O que o sistema faz
 
 - Guarda módulos e leituras em um banco SQLite
@@ -24,6 +31,7 @@
 
 ## Como rodar
 
+Python 3.9 ou mais novo.
 
 ```
 pip install numpy matplotlib
@@ -32,16 +40,17 @@ python codigo_fonte.py
 
 O `numpy` é obrigatório. 
 
+
 ## Arquivos do projeto
 
-`codigo_fonte.py` 
-`script_banco.sql` 
-`dados_aurora_siger.csv`  
-`circuito_logico.pdf`
-`simulacao_computacional.py`  
-`relatorio_tecnico.pdf`  
-`link_video.txt`  
-`graficos_ou_imagens/` 
+- `codigo_fonte.py`: sistema principal
+- `script_banco.sql`: criação das tabelas
+- `dados_aurora_siger.csv`: base de dados simulada
+- `circuito_logico.pdf`: circuito lógico
+- `simulacao_computacional.py`: simulação da bateria
+- `relatorio_tecnico.pdf`: relatório do projeto
+- `link_video.txt`: link do vídeo
+- `graficos_ou_imagens/`: gráficos e evidências
 
 ## Menu
 
