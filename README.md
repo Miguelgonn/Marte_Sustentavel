@@ -119,8 +119,6 @@ Como interpretar: b1 é quanto o consumo sobe (em kWh) a cada grau a mais, b2 é
 
 ## Agentes de IA (simulado)
 
-Não usamos nenhum LLM de verdade, é uma simulação com regras simples em Python para mostrar como seria a arquitetura.
-
 - **Agente triador**: lê a mensagem e passa para o agente certo (handoff)
 - **Agente de energia**: consulta o consumo médio no banco
 - **Agente ambiental**: informa temperatura e umidade médias
@@ -128,7 +126,7 @@ Não usamos nenhum LLM de verdade, é uma simulação com regras simples em Pyth
 - **Guardrail**: bloqueia pedidos perigosos, como desligar o suporte de vida ou o oxigênio
 - **Sessão**: guarda as mensagens da conversa
 
-Os agentes só usam funções que consultam o banco, então não inventam número. Se o pedido não for entendido, ele vai para um operador humano. A IA só sugere, quem decide é a pessoa.
+Os agentes só usam funções que consultam o banco, então não inventam número. Se o pedido não for entendido, ele vai para um operador humano.
 
 ## Arquitetura computacional
 
