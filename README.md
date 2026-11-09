@@ -31,10 +31,7 @@ pip install numpy matplotlib
 python codigo_fonte.py
 ```
 
-O `numpy` é obrigatório. O `matplotlib` é opcional, ele só serve para salvar o gráfico da bateria (se não tiver instalado o sistema roda normal, só não gera a imagem). O SQLite já vem com o Python.
-
-Na primeira vez que roda, o programa cria o arquivo `banco_aurora_siger.db` sozinho e coloca os dados de teste. Esses dados são gerados com `random.seed(42)`, então sempre saem iguais.
-
+O `numpy` é obrigatório. 
 ## Arquivos do projeto
 
 | Arquivo | O que tem |
