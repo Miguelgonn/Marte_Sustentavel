@@ -222,11 +222,3 @@ RECOMENDACAO TECNICA:
   Decisao final deve ser validada por um responsavel humano.
 ```
 
-## Limitações e o que dá para melhorar
-
-- Os dados são simulados, não foram comparados com medições reais
-- O modelo linear é simples e não pega comportamentos não lineares nem eventos extremos
-- Os agentes de IA são só uma simulação, sem LLM de verdade
-- A geração solar da simulação é idealizada
-
-Melhorias que a gente pensou: dashboard gráfico, sensores reais com Arduino, modelos de previsão melhores, login de usuários e registro de auditoria.
