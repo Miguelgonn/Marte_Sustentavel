@@ -60,7 +60,7 @@ O `numpy` é obrigatório.
 
 ### Tratamento de erros
 
-Todas as funções do CRUD usam `try / except / else / finally`, e os comandos SQL são parametrizados (com `?`) para não ter risco de SQL injection.
+Todas as funções do CRUD usam `try / except / else / finally`
 
 - Se o usuário digita texto onde era número, ou um valor fora do limite, o `ler_numero()` avisa e pergunta de novo
 - Se o módulo ou a leitura não existe, aparece uma mensagem de erro
