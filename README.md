@@ -44,8 +44,7 @@ O `numpy` é obrigatório.
 ## Arquivos do projeto
 
 - `codigo_fonte.py`: sistema principal
-- `script_banco.sql`: criação das tabelas
-- `dados_aurora_siger.csv`: base de dados simulada
+- ``: base de dados simulada
 - `circuito_logico.pdf`: circuito lógico
 - `simulacao_computacional.py`: simulação da bateria
 - `relatorio_tecnico.pdf`: relatório do projeto
