@@ -60,15 +60,6 @@ O `numpy` é obrigatório.
 ```
 
 
-## Banco de dados
-
-Usamos SQLite como alternativa ao Oracle, porque já vem com o Python. São duas tabelas ligadas por chave estrangeira.
-
-**modulos**: `codigo` (PK), `nome`, `critico` (0 ou 1), `ativo` (0 ou 1), `limite_consumo`
-
-**leituras**: `id` (PK), `modulo_codigo` (FK), `ciclo`, `temperatura`, `umidade`, `tripulantes`, `consumo_kwh`
-
-Os módulos cadastrados são: ENE-01 (Energia), HAB-01 (Habitação), AGR-01 (Agricultura), LAB-01 (Laboratório), MED-01 (Suporte médico) e COM-01 (Comunicação). Cada um começa com 10 ciclos de leituras, então são 60 registros no total.
 
 ### Tratamento de erros
 
