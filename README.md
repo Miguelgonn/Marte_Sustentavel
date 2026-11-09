@@ -35,14 +35,14 @@ O `numpy` é obrigatório.
 
 ## Arquivos do projeto
 
-| `codigo_fonte.py` | 
-| `script_banco.sql` |
-| `dados_aurora_siger.csv` | 
-| `circuito_logico.pdf` ou `link_tinkercad.txt` | 
-| `simulacao_computacional.py` | 
-| `relatorio_tecnico.pdf` | 
-| `link_video.txt` | 
-| `graficos_ou_imagens/` | Gráficos e prints da execução |
+ `codigo_fonte.py` 
+ `script_banco.sql` 
+ `dados_aurora_siger.csv`  
+ `circuito_logico.pdf` ou `link_tinkercad.txt`  
+`simulacao_computacional.py`  
+`relatorio_tecnico.pdf`  
+`link_video.txt`  
+ `graficos_ou_imagens/` 
 
 ## Menu
 
