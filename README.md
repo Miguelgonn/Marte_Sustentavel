@@ -32,6 +32,7 @@ python codigo_fonte.py
 ```
 
 O `numpy` é obrigatório. 
+
 ## Arquivos do projeto
 
 | Arquivo | O que tem |
@@ -58,7 +59,6 @@ O `numpy` é obrigatório.
  0. Sair
 ```
 
-A opção 12 faz o fluxo completo: pega a última leitura de cada módulo no banco, aplica a regra de alerta, coloca os alertas na fila, mostra quais módulos caem se a energia falhar, roda a simulação da bateria, roda a regressão e no final dá uma recomendação. Essa recomendação sempre precisa ser confirmada por uma pessoa.
 
 ## Banco de dados
 
