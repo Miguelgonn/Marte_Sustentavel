@@ -35,8 +35,6 @@ O `numpy` é obrigatório.
 
 ## Arquivos do projeto
 
-| Arquivo | O que tem |
-
 | `codigo_fonte.py` | 
 | `script_banco.sql` |
 | `dados_aurora_siger.csv` | 
