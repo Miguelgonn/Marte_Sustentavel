@@ -36,14 +36,14 @@ O `numpy` é obrigatório.
 ## Arquivos do projeto
 
 | Arquivo | O que tem |
-|---|---|
-| `codigo_fonte.py` | O sistema todo (menu, CRUD, regras, simulação, regressão e agentes) |
-| `script_banco.sql` | Criação das tabelas |
-| `dados_aurora_siger.csv` | Base de dados simulada |
-| `circuito_logico.pdf` ou `link_tinkercad.txt` | Circuito lógico |
-| `simulacao_computacional.py` | Simulação de consumo e bateria |
-| `relatorio_tecnico.pdf` | Relatório do projeto |
-| `link_video.txt` | Link do vídeo |
+
+| `codigo_fonte.py` | 
+| `script_banco.sql` |
+| `dados_aurora_siger.csv` | 
+| `circuito_logico.pdf` ou `link_tinkercad.txt` | 
+| `simulacao_computacional.py` | 
+| `relatorio_tecnico.pdf` | 
+| `link_video.txt` | 
 | `graficos_ou_imagens/` | Gráficos e prints da execução |
 
 ## Menu
