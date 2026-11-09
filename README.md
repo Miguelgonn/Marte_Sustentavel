@@ -210,3 +210,8 @@ RECOMENDACAO TECNICA:
   Decisao final deve ser validada por um responsavel humano.
 ```
 
+<img width="910" height="315" alt="image" src="https://github.com/user-attachments/assets/b7ecae03-50ef-4084-a21b-ce5b9a818ea0" />
+<img width="910" height="502" alt="image" src="https://github.com/user-attachments/assets/18213717-e4b7-4f13-ad4c-3f526cf95ffd" />
+<img width="960" height="480" alt="image" src="https://github.com/user-attachments/assets/1375ec8b-2a62-472a-8360-a16da9dfdb5c" />
+
+
