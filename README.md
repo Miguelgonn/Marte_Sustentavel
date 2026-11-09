@@ -24,7 +24,6 @@
 
 ## Como rodar
 
-Precisa de Python 3.9 ou mais novo.
 
 ```
 pip install numpy matplotlib
