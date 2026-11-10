@@ -119,8 +119,6 @@ A simulação calcula o estado de carga (SoC) da bateria durante 24 horas e comp
 - A cada hora: `SoC = SoC + (geração - consumo) / capacidade * 100`, sempre entre 0 e 100%
 - A energia gerada e consumida é calculada por integração numérica (regra do trapézio)
 
-O gráfico fica salvo em `graficos_ou_imagens/simulacao_bateria.png`.
-
 Limitações: não considera perdas na carga e descarga, desgaste da bateria, tempestade de poeira nem mudança de estação, e os dados são inventados.
 
 ## Regressão linear
