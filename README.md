@@ -109,9 +109,6 @@ Ou seja, ALERTA = A · B, onde A é "consumo alto" (acima do limite do módulo) 
 
 Também tem a regra da irrigação: só libera se o módulo agrícola estiver ativo **e** a umidade for menor que 40%.
 
-No circuito, A e B são duas chaves ligadas em uma porta AND, e a saída acende um LED. Dá para montar no Tinkercad com o CI 7408 e um resistor de 220 ohms no LED, ou com Arduino. O resultado é o mesmo no Python e no circuito.
-
-![Circuito lógico](circuito_logico.png)
 
 ## Simulação da bateria
 
