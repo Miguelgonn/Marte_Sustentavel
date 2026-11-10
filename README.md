@@ -239,6 +239,10 @@ Tratamento de erros:
 
 <img width="910" height="502" alt="image" src="https://github.com/user-attachments/assets/18213717-e4b7-4f13-ad4c-3f526cf95ffd" />
 
+Circuito logico 
+
+<img width="1192" height="630" alt="image" src="https://github.com/user-attachments/assets/9e6c3a9a-5210-4969-9a4e-bcc927e86557" />
+
 Gráfico da simulação da bateria:
 
 <img width="960" height="480" alt="image" src="https://github.com/user-attachments/assets/1375ec8b-2a62-472a-8360-a16da9dfdb5c" />
