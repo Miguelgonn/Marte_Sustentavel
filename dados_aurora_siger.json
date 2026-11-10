@@ -1,0 +1,528 @@
+{
+  "modulos": [
+    {
+      "codigo": "ENE-01",
+      "nome": "Energia",
+      "critico": 1,
+      "ativo": 1,
+      "limite_consumo": 20.0
+    },
+    {
+      "codigo": "HAB-01",
+      "nome": "Habitacao",
+      "critico": 1,
+      "ativo": 1,
+      "limite_consumo": 18.0
+    },
+    {
+      "codigo": "AGR-01",
+      "nome": "Agricultura",
+      "critico": 0,
+      "ativo": 1,
+      "limite_consumo": 16.0
+    },
+    {
+      "codigo": "LAB-01",
+      "nome": "Laboratorio",
+      "critico": 0,
+      "ativo": 1,
+      "limite_consumo": 17.0
+    },
+    {
+      "codigo": "MED-01",
+      "nome": "Suporte medico",
+      "critico": 1,
+      "ativo": 1,
+      "limite_consumo": 15.0
+    },
+    {
+      "codigo": "COM-01",
+      "nome": "Comunicacao",
+      "critico": 0,
+      "ativo": 1,
+      "limite_consumo": 14.0
+    }
+  ],
+  "leituras": [
+    {
+      "modulo_codigo": "ENE-01",
+      "ciclo": 1,
+      "temperatura": 25.7,
+      "umidade": 26.1,
+      "tripulantes": 5,
+      "consumo_kwh": 18.52
+    },
+    {
+      "modulo_codigo": "ENE-01",
+      "ciclo": 2,
+      "temperatura": 19.2,
+      "umidade": 58.3,
+      "tripulantes": 2,
+      "consumo_kwh": 13.74
+    },
+    {
+      "modulo_codigo": "ENE-01",
+      "ciclo": 3,
+      "temperatura": 25.1,
+      "umidade": 26.4,
+      "tripulantes": 2,
+      "consumo_kwh": 15.33
+    },
+    {
+      "modulo_codigo": "ENE-01",
+      "ciclo": 4,
+      "temperatura": 18.3,
+      "umidade": 33.9,
+      "tripulantes": 7,
+      "consumo_kwh": 19.85
+    },
+    {
+      "modulo_codigo": "ENE-01",
+      "ciclo": 5,
+      "temperatura": 20.6,
+      "umidade": 51.5,
+      "tripulantes": 1,
+      "consumo_kwh": 12.36
+    },
+    {
+      "modulo_codigo": "ENE-01",
+      "ciclo": 6,
+      "temperatura": 23.1,
+      "umidade": 37.5,
+      "tripulantes": 4,
+      "consumo_kwh": 15.6
+    },
+    {
+      "modulo_codigo": "ENE-01",
+      "ciclo": 7,
+      "temperatura": 29.5,
+      "umidade": 40.1,
+      "tripulantes": 2,
+      "consumo_kwh": 15.49
+    },
+    {
+      "modulo_codigo": "ENE-01",
+      "ciclo": 8,
+      "temperatura": 22.1,
+      "umidade": 36.9,
+      "tripulantes": 1,
+      "consumo_kwh": 13.8
+    },
+    {
+      "modulo_codigo": "ENE-01",
+      "ciclo": 9,
+      "temperatura": 26.8,
+      "umidade": 49.1,
+      "tripulantes": 7,
+      "consumo_kwh": 22.18
+    },
+    {
+      "modulo_codigo": "ENE-01",
+      "ciclo": 10,
+      "temperatura": 25.5,
+      "umidade": 64.8,
+      "tripulantes": 6,
+      "consumo_kwh": 20.12
+    },
+    {
+      "modulo_codigo": "HAB-01",
+      "ciclo": 1,
+      "temperatura": 24.9,
+      "umidade": 56.7,
+      "tripulantes": 1,
+      "consumo_kwh": 12.45
+    },
+    {
+      "modulo_codigo": "HAB-01",
+      "ciclo": 2,
+      "temperatura": 29.8,
+      "umidade": 63.5,
+      "tripulantes": 2,
+      "consumo_kwh": 14.44
+    },
+    {
+      "modulo_codigo": "HAB-01",
+      "ciclo": 3,
+      "temperatura": 22.6,
+      "umidade": 45.4,
+      "tripulantes": 6,
+      "consumo_kwh": 19.24
+    },
+    {
+      "modulo_codigo": "HAB-01",
+      "ciclo": 4,
+      "temperatura": 26.0,
+      "umidade": 56.6,
+      "tripulantes": 2,
+      "consumo_kwh": 16.5
+    },
+    {
+      "modulo_codigo": "HAB-01",
+      "ciclo": 5,
+      "temperatura": 25.3,
+      "umidade": 32.7,
+      "tripulantes": 4,
+      "consumo_kwh": 18.01
+    },
+    {
+      "modulo_codigo": "HAB-01",
+      "ciclo": 6,
+      "temperatura": 29.9,
+      "umidade": 53.8,
+      "tripulantes": 4,
+      "consumo_kwh": 20.12
+    },
+    {
+      "modulo_codigo": "HAB-01",
+      "ciclo": 7,
+      "temperatura": 26.2,
+      "umidade": 62.9,
+      "tripulantes": 1,
+      "consumo_kwh": 14.32
+    },
+    {
+      "modulo_codigo": "HAB-01",
+      "ciclo": 8,
+      "temperatura": 21.8,
+      "umidade": 37.0,
+      "tripulantes": 4,
+      "consumo_kwh": 16.41
+    },
+    {
+      "modulo_codigo": "HAB-01",
+      "ciclo": 9,
+      "temperatura": 29.0,
+      "umidade": 50.5,
+      "tripulantes": 6,
+      "consumo_kwh": 21.16
+    },
+    {
+      "modulo_codigo": "HAB-01",
+      "ciclo": 10,
+      "temperatura": 28.6,
+      "umidade": 53.9,
+      "tripulantes": 3,
+      "consumo_kwh": 19.03
+    },
+    {
+      "modulo_codigo": "AGR-01",
+      "ciclo": 1,
+      "temperatura": 21.2,
+      "umidade": 36.1,
+      "tripulantes": 5,
+      "consumo_kwh": 16.89
+    },
+    {
+      "modulo_codigo": "AGR-01",
+      "ciclo": 2,
+      "temperatura": 25.0,
+      "umidade": 41.3,
+      "tripulantes": 3,
+      "consumo_kwh": 14.46
+    },
+    {
+      "modulo_codigo": "AGR-01",
+      "ciclo": 3,
+      "temperatura": 24.1,
+      "umidade": 29.1,
+      "tripulantes": 1,
+      "consumo_kwh": 14.09
+    },
+    {
+      "modulo_codigo": "AGR-01",
+      "ciclo": 4,
+      "temperatura": 19.9,
+      "umidade": 55.6,
+      "tripulantes": 2,
+      "consumo_kwh": 12.5
+    },
+    {
+      "modulo_codigo": "AGR-01",
+      "ciclo": 5,
+      "temperatura": 22.6,
+      "umidade": 51.8,
+      "tripulantes": 8,
+      "consumo_kwh": 16.78
+    },
+    {
+      "modulo_codigo": "AGR-01",
+      "ciclo": 6,
+      "temperatura": 28.3,
+      "umidade": 25.5,
+      "tripulantes": 2,
+      "consumo_kwh": 15.38
+    },
+    {
+      "modulo_codigo": "AGR-01",
+      "ciclo": 7,
+      "temperatura": 26.2,
+      "umidade": 49.2,
+      "tripulantes": 5,
+      "consumo_kwh": 18.83
+    },
+    {
+      "modulo_codigo": "AGR-01",
+      "ciclo": 8,
+      "temperatura": 21.5,
+      "umidade": 32.1,
+      "tripulantes": 1,
+      "consumo_kwh": 11.27
+    },
+    {
+      "modulo_codigo": "AGR-01",
+      "ciclo": 9,
+      "temperatura": 29.4,
+      "umidade": 64.4,
+      "tripulantes": 5,
+      "consumo_kwh": 22.29
+    },
+    {
+      "modulo_codigo": "AGR-01",
+      "ciclo": 10,
+      "temperatura": 24.1,
+      "umidade": 29.8,
+      "tripulantes": 5,
+      "consumo_kwh": 17.49
+    },
+    {
+      "modulo_codigo": "LAB-01",
+      "ciclo": 1,
+      "temperatura": 28.1,
+      "umidade": 47.8,
+      "tripulantes": 4,
+      "consumo_kwh": 19.69
+    },
+    {
+      "modulo_codigo": "LAB-01",
+      "ciclo": 2,
+      "temperatura": 24.5,
+      "umidade": 60.0,
+      "tripulantes": 1,
+      "consumo_kwh": 15.76
+    },
+    {
+      "modulo_codigo": "LAB-01",
+      "ciclo": 3,
+      "temperatura": 25.2,
+      "umidade": 47.0,
+      "tripulantes": 2,
+      "consumo_kwh": 17.8
+    },
+    {
+      "modulo_codigo": "LAB-01",
+      "ciclo": 4,
+      "temperatura": 28.0,
+      "umidade": 38.8,
+      "tripulantes": 1,
+      "consumo_kwh": 13.57
+    },
+    {
+      "modulo_codigo": "LAB-01",
+      "ciclo": 5,
+      "temperatura": 20.9,
+      "umidade": 50.5,
+      "tripulantes": 2,
+      "consumo_kwh": 15.0
+    },
+    {
+      "modulo_codigo": "LAB-01",
+      "ciclo": 6,
+      "temperatura": 18.8,
+      "umidade": 59.2,
+      "tripulantes": 3,
+      "consumo_kwh": 14.77
+    },
+    {
+      "modulo_codigo": "LAB-01",
+      "ciclo": 7,
+      "temperatura": 19.5,
+      "umidade": 46.4,
+      "tripulantes": 3,
+      "consumo_kwh": 13.84
+    },
+    {
+      "modulo_codigo": "LAB-01",
+      "ciclo": 8,
+      "temperatura": 23.1,
+      "umidade": 34.5,
+      "tripulantes": 4,
+      "consumo_kwh": 19.52
+    },
+    {
+      "modulo_codigo": "LAB-01",
+      "ciclo": 9,
+      "temperatura": 26.6,
+      "umidade": 43.0,
+      "tripulantes": 6,
+      "consumo_kwh": 18.23
+    },
+    {
+      "modulo_codigo": "LAB-01",
+      "ciclo": 10,
+      "temperatura": 19.5,
+      "umidade": 35.1,
+      "tripulantes": 6,
+      "consumo_kwh": 18.11
+    },
+    {
+      "modulo_codigo": "MED-01",
+      "ciclo": 1,
+      "temperatura": 18.3,
+      "umidade": 49.9,
+      "tripulantes": 4,
+      "consumo_kwh": 17.16
+    },
+    {
+      "modulo_codigo": "MED-01",
+      "ciclo": 2,
+      "temperatura": 18.7,
+      "umidade": 28.0,
+      "tripulantes": 1,
+      "consumo_kwh": 11.75
+    },
+    {
+      "modulo_codigo": "MED-01",
+      "ciclo": 3,
+      "temperatura": 28.3,
+      "umidade": 28.2,
+      "tripulantes": 4,
+      "consumo_kwh": 18.0
+    },
+    {
+      "modulo_codigo": "MED-01",
+      "ciclo": 4,
+      "temperatura": 24.5,
+      "umidade": 57.6,
+      "tripulantes": 8,
+      "consumo_kwh": 23.08
+    },
+    {
+      "modulo_codigo": "MED-01",
+      "ciclo": 5,
+      "temperatura": 20.9,
+      "umidade": 46.3,
+      "tripulantes": 7,
+      "consumo_kwh": 19.26
+    },
+    {
+      "modulo_codigo": "MED-01",
+      "ciclo": 6,
+      "temperatura": 23.2,
+      "umidade": 44.1,
+      "tripulantes": 8,
+      "consumo_kwh": 21.55
+    },
+    {
+      "modulo_codigo": "MED-01",
+      "ciclo": 7,
+      "temperatura": 28.4,
+      "umidade": 27.4,
+      "tripulantes": 2,
+      "consumo_kwh": 18.39
+    },
+    {
+      "modulo_codigo": "MED-01",
+      "ciclo": 8,
+      "temperatura": 27.6,
+      "umidade": 29.9,
+      "tripulantes": 4,
+      "consumo_kwh": 18.96
+    },
+    {
+      "modulo_codigo": "MED-01",
+      "ciclo": 9,
+      "temperatura": 20.3,
+      "umidade": 45.2,
+      "tripulantes": 7,
+      "consumo_kwh": 19.48
+    },
+    {
+      "modulo_codigo": "MED-01",
+      "ciclo": 10,
+      "temperatura": 28.5,
+      "umidade": 28.4,
+      "tripulantes": 2,
+      "consumo_kwh": 17.7
+    },
+    {
+      "modulo_codigo": "COM-01",
+      "ciclo": 1,
+      "temperatura": 18.6,
+      "umidade": 70.0,
+      "tripulantes": 1,
+      "consumo_kwh": 14.97
+    },
+    {
+      "modulo_codigo": "COM-01",
+      "ciclo": 2,
+      "temperatura": 28.2,
+      "umidade": 32.5,
+      "tripulantes": 8,
+      "consumo_kwh": 22.01
+    },
+    {
+      "modulo_codigo": "COM-01",
+      "ciclo": 3,
+      "temperatura": 23.8,
+      "umidade": 63.9,
+      "tripulantes": 1,
+      "consumo_kwh": 13.48
+    },
+    {
+      "modulo_codigo": "COM-01",
+      "ciclo": 4,
+      "temperatura": 22.7,
+      "umidade": 66.7,
+      "tripulantes": 8,
+      "consumo_kwh": 20.83
+    },
+    {
+      "modulo_codigo": "COM-01",
+      "ciclo": 5,
+      "temperatura": 21.4,
+      "umidade": 56.3,
+      "tripulantes": 8,
+      "consumo_kwh": 21.0
+    },
+    {
+      "modulo_codigo": "COM-01",
+      "ciclo": 6,
+      "temperatura": 29.6,
+      "umidade": 51.1,
+      "tripulantes": 1,
+      "consumo_kwh": 16.5
+    },
+    {
+      "modulo_codigo": "COM-01",
+      "ciclo": 7,
+      "temperatura": 27.0,
+      "umidade": 27.6,
+      "tripulantes": 8,
+      "consumo_kwh": 19.31
+    },
+    {
+      "modulo_codigo": "COM-01",
+      "ciclo": 8,
+      "temperatura": 19.9,
+      "umidade": 68.2,
+      "tripulantes": 2,
+      "consumo_kwh": 13.11
+    },
+    {
+      "modulo_codigo": "COM-01",
+      "ciclo": 9,
+      "temperatura": 28.2,
+      "umidade": 28.1,
+      "tripulantes": 2,
+      "consumo_kwh": 15.57
+    },
+    {
+      "modulo_codigo": "COM-01",
+      "ciclo": 10,
+      "temperatura": 19.4,
+      "umidade": 65.1,
+      "tripulantes": 4,
+      "consumo_kwh": 14.21
+    }
+  ]
+}
