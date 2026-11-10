@@ -14,7 +14,6 @@
 
 Protótipo em Python, executado no terminal, que organiza e analisa os dados operacionais da colônia Aurora Siger para apoiar decisões sustentáveis: guarda leituras dos módulos em banco de dados, gera alertas, simula a bateria e estima o consumo de energia.
 
-Vídeo de apresentação (YouTube, não listado): COLE_AQUI_O_LINK
 
 ## O que o sistema faz
 
@@ -36,9 +35,7 @@ pip install numpy matplotlib
 python codigo_fonte.py
 ```
 
-Precisa de Python 3.9 ou mais novo. O `numpy` é obrigatório; o `matplotlib` é opcional (só gera o gráfico da bateria). O `sqlite3`, o `json` e o `os` já vêm com o Python.
-
-Deixe o `codigo_fonte.py` e o `dados_aurora_siger.json` na mesma pasta. Na primeira execução o programa cria o `banco_aurora_siger.db` e carrega os dados do JSON.
+Precisa de Python 3.9 ou mais novo. O `numpy` é obrigatório
 
 ## Arquivos do projeto
 
@@ -48,7 +45,6 @@ Deixe o `codigo_fonte.py` e o `dados_aurora_siger.json` na mesma pasta. Na prime
 - `circuito_logico.png`: circuito lógico
 - `relatorio_tecnico.pdf`: relatório do projeto
 - `link_video.txt`: link do vídeo
-- `graficos_ou_imagens/`: gráficos e evidências de execução
 
 ## Menu
 
@@ -65,11 +61,6 @@ Deixe o `codigo_fonte.py` e o `dados_aurora_siger.json` na mesma pasta. Na prime
 ```
 
 ## Dados e banco de dados
-
-Usamos SQLite como alternativa ao Oracle, porque já vem com o Python. São duas tabelas ligadas por chave estrangeira:
-
-- **modulos**: `codigo` (PK), `nome`, `critico` (0 ou 1), `ativo` (0 ou 1), `limite_consumo`
-- **leituras**: `id` (PK), `modulo_codigo` (FK), `ciclo`, `temperatura`, `umidade`, `tripulantes`, `consumo_kwh`
 
 O arquivo `dados_aurora_siger.json` guarda a base simulada, com as listas `modulos` e `leituras`. Ele funciona assim:
 
