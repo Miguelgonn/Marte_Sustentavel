@@ -245,6 +245,3 @@ Gráfico da simulação da bateria:
 
 <img width="960" height="480" alt="image" src="https://github.com/user-attachments/assets/1375ec8b-2a62-472a-8360-a16da9dfdb5c" />
 
-## Limitações
-
-Os dados são simulados, sem validação com medições reais, e os agentes de IA são só uma simulação, sem LLM de verdade.
